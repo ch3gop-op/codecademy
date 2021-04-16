@@ -42,9 +42,12 @@ elif weight > 10:
 print("Drone shipping cost: " + str(drone_price))
 
 #Find lowest price, compare costs and print lowest
-'''
-if ground_price > ground_premium_charge:
-  print("Premium ")
-if ground_price < drone_price and ground price < ground_premium_charge:
-  print("Ground shipping is the cheapest option!")
-elif ground_price > drone_price 
+
+if ground_price < drone_price and ground_price < ground_premium_charge:
+  print("Ground shipping is the lowest cost!")
+elif drone_price < ground_price and drone_price < ground_premium_charge:
+  print("Drone shipping is the lowest cost!")
+else:
+  print("Premium ground shipping is the lowst cost!")
+
+#print(min(ground_price, drone_price, ground_premium_charge))
