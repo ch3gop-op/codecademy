@@ -1,3 +1,5 @@
+#Magic 8 ball project for codecademy
+#ch3gop.op 20210416
 import random
 '''
 print("What is your name?")
