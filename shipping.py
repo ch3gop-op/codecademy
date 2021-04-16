@@ -41,7 +41,7 @@ elif weight > 10:
 
 print("Drone shipping cost: " + str(drone_price))
 
-#Find lowest price
+#Find lowest price, compare costs and print lowest
 '''
 if ground_price > ground_premium_charge:
   print("Premium ")
