@@ -1,4 +1,5 @@
-#Sals shipping calculator
+#Sals shipping calculator project for codecademy
+#ch3gop 20210416
 weight = 8.5
 ground_price = 0.0
 drone_price = 0.0
