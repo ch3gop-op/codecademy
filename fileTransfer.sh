@@ -1,5 +1,6 @@
 #!/bin/bash
 #ch3gop.op codecademy bash scripting project 
+#This only works for a preset example file transfer...
 
 echo "welcome to the file transfer script."
 
